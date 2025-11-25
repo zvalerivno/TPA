@@ -1,0 +1,40 @@
+package execicios1;
+
+import java.util.Scanner;
+
+public class Triangulo {
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		
+		double a, b, c;
+		
+		System.out.println("Digite o primeiro valor:");
+		a = in.nextDouble();
+		
+		System.out.println("Digite o segundo valor:");
+		b = in.nextDouble();
+		
+		System.out.println("Digite o terceiro valor:");
+		c = in.nextDouble();
+		
+		
+		if(a> b+c || b > c+a || c> a +b) {
+			System.out.println("Não é um triângulo");
+		}
+		
+		else if(a == b && b==c){
+			System.out.println("Triângulo Equilatero (Três lados iguais)");
+		}
+		
+		else if(a != b && b != c && a != c) {
+			System.out.println("Triângulo Escaleno (Três lados diferentes)");
+		}
+		
+		else {
+			System.out.println("Triângulo Isósceles (Dois lados iguais e um lado diferente)");
+		}
+
+
+	}
+}

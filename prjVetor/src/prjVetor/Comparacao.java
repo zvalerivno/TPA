@@ -16,39 +16,30 @@ public class Comparacao {
 		c = new int [TAM];
 		
         for (i = 0; i < TAM; i++) {
-            System.out.print("Digite o " + (i+1) + "º valor do vetor A: ");
+            System.out.print("Digite o " + (i+1) + " valor do vetor A: ");
             a[i] = in.nextInt();
         }
 
     
         for (i = 0; i < TAM; i++) {
-            System.out.print("Digite o " + (i+1) + "º valor do vetor B: ");
+            System.out.print("Digite o " + (i+1) + " valor do vetor B: ");
             b[i] = in.nextInt();
-        }
-
+		}
         
         for (i = 0; i < TAM; i++) {
 
             if (a[i] > b[i]) {
-            	
                 c[i] = 1;
-                
             } else if (a[i] == b[i]) {
-            	
-                c[i] = 0;
-                
+                c[i] = 0;  
             } else { 
-            	
-                c[i] = -1;
-                
+                c[i] = -1;  
             }
         }
-
-        
         System.out.println("\nVetor C:");
         for (i = 0; i < TAM; i++) {
             System.out.println("C = " + c[i]);
         }
-		
 	}
 }
+

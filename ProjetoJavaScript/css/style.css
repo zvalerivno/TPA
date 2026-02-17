@@ -1,0 +1,135 @@
+body{
+    background: rgb(226, 226, 226);
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    height: 430px;
+    width: 900px;
+    margin-left: 400px;
+    background: white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.526); 
+}
+
+.nome-sobrenome {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.nome-sobrenome input {
+    height: 35px;
+    width: 400px;
+    margin-bottom: -100px;
+    outline: none;
+    border-style: double;
+    border-color:  #797979;
+    background: white;
+    border-radius: 8px;
+}
+
+.nome-sobrenome label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.email-telefone {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.email-telefone input {
+    height: 35px;
+    width: 252px;
+    margin-bottom: -100px;
+    outline: none;
+    border-style: double;
+    border-color:  #797979;
+    background: white;
+    border-radius: 8px;
+}
+
+.email-telefone label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.assunto-mensagem{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.assunto-mensagem input {
+    height: 150px;
+    width: 405px;
+    outline: none;
+    border-style: double;
+    border-color:  #797979;
+    background: white;
+    border-radius: 8px;
+    
+}
+
+.assunto-mensagem label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.btDados{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;   
+}
+
+.btDados button{
+    width: 855px;
+    height: 40px;
+    background: rgb(78, 78, 78);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 110%;
+    border-radius: 8px;
+    transition: 0.4s;
+    border: none;
+}
+
+#resultado {
+    display: grid;
+    justify-content: left;
+    height: 430px;
+    width: 900px;
+    margin-left: 400px;
+    background: white;
+    margin-top: px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.526); 
+}
+
+p{
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+}
+
+h1{
+    margin-left: 400px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 170%;
+    color: #797979;
+}
+
+
+
+
+

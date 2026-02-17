@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    
+    <section class="container">
+        <form   action=" " method="post">
+            <!-- COMEÇO DIV NOME -->
+            <div class="nome-sobrenome">
+                <div>   
+                    <div>
+                        <label>Nome:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="txNome" placeholder="Nome">
+                    </div>
+                </div>
+
+                <div>   
+                    <div>
+                        <label>Sobrenome:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="txSobrenome" placeholder="Sobrenome">
+                    </div>
+                </div>
+            </div>
+            <!-- FIM DIV NOME -->
+
+            <!-- COMEÇO  DIV EMAIL -->
+            <div class="email-telefone">
+                <div>   
+                    <div>
+                        <label>E-mail:</label>
+                    </div>
+                    
+                    <div>
+                        <input type="email" id="txEmail" placeholder="E-mail">
+                    </div>
+                </div>
+
+                <div>   
+                    <div>
+                        <label>Data de Nascimento:</label>
+                    </div>
+                    <div>
+                        <input type="date" id="txDataNasc" >
+                    </div>
+                </div>
+
+                <div>   
+                    <div>
+                        <label>Telefone:</label>
+                    </div>
+                    <div>
+                        <input type="tel" id="txTelefone" placeholder="Telefone">
+                    </div>
+                </div>
+            </div>
+            <!--  FIM  DIV EMAIL -->
+            <!--  COMEÇO DIV ASSUNTO -->
+            <div class="assunto-mensagem">
+                <div>   
+                    <div>
+                        <label>Assunto:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="txAssunto">
+                    </div>
+                </div>
+
+                <div>   
+                    <div>
+                        <label>Mensagem:</label>
+                    </div>
+                    <div>
+                        <input type="text" id="txMensagem">
+                    </div>
+                </div>
+            </div>
+            <div class="btDados">
+                    <button type="button">Visualizar Dados</button>
+            </div>
+            <!--  FIM DIV ASSUNTO -->
+    </form>
+
+    </section>
+    <div id="resultado"></div>
+
+</body>
+</html>

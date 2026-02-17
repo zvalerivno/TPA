@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CodeAcademy</title>
+    <link rel="icon" href="images/IconeSite.png">
+    <link rel="stylesheet" href="Css/Reset.css'">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Css/Style.css">
+</head>
+  <body>
+    
+    <!--COMEÇO NAVBAR-->
+    <header>
+        <div class="menu-left">
+            <img src="images/LogoSIte.png" alt="LogoSite">  
+        </div>
+
+        
+        <nav class="menu-links">
+            <a href="index.html">Home</a>
+            <a href="Cursos.html">Cursos</a>
+            <a href="Contato.html">Contato</a>   
+        </nav>
+            
+        <div class="search">
+            <input type="search" placeholder="Pesquise...">
+            <i class="bi bi-search" style="color: #ffffff;"></i>
+        </div>
+        
+    </header>
+    <!--FIM NAVBAR-->
+
+
+    <!--COMEÇO CARROSEL-->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="images/LogicaProgramacao.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Lógica de Programação</h5>
+            <p>Aprenda a pensar como um programador! Entenda estruturas de decisão, laços e variáveis, e domine os fundamentos que servem de base para qualquer linguagem.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="images/FotoCursoHtmlCss.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Desenvolvimento Web com HTML, CSS e JavaScript</h5>
+            <p>Construa sites completos do zero! Crie páginas modernas, estilizadas e interativas, aprendendo as três principais tecnologias da web.</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <img src="images/python.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Python para Iniciantes</h5>
+            <p>Descubra a linguagem mais versátil do mercado. Aprenda a programar com Python e desenvolva desde scripts simples até aplicações completas.</p>
+        </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--FIM CARROSEL-->
+
+
+    <!--COMEÇO SECTION MISSÃO-->
+    
+    <section class="missao">
+        <h1>Nossa Missão</h1>
+
+        <p>
+            A CodeAcademy tem como missão tornar o aprendizado de programação acessível, prático e inspirador <br>
+            para todos. Nosso objetivo é formar novos talentos na área da tecnologia, oferecendo cursos que<br>
+            unem teoria e prática de forma clara, moderna e envolvente. Acreditamos que a programação é a <br>
+            linguagem do futuro, e queremos ajudar cada aluno a desenvolver as habilidades necessárias para<br>
+            criar, inovar e transformar ideias em soluções reais.Aqui, o conhecimento é construído passo a<br>
+            passo, com foco em resultados, colaboração e evolução constante.
+        </p>
+    </section>
+
+    <!--FIM SECTION MISSÃO-->
+
+
+    <!--COMEÇO SECTION VALORES-->
+
+     <section class="valores">
+        <div class="cards">
+            <img src="images/python.png" alt="Python">
+            <h1>Python para Iniciantes</h1>
+            <h2>R$399,99</h2>
+            <p>
+               Descubra a linguagem mais <br>
+               versátil do mercado. Aprenda<br>
+               a programar com Python e<br>
+               desenvolva desde scripts <br>
+               simples até aplicações completas.<br>
+            </p>
+            <a href="python.html">Veja mais</a>
+        </div>
+            
+        <div class="cards">
+          <img src="images/LogicaProgramacao.png" alt="LogicaProgramacao">
+          <h1>Lógica de Programação</h1>
+          <h2>R$199,99</h2>
+          <p>
+            Aprenda a pensar como um <br>
+            programador! Entenda estruturas<br>
+            de decisão, laços e variáveis, e<br>
+            domine os fundamentos que servem<br>
+            de base para qualquer linguagem.
+          </p>
+          <a href="LogicaProgramacao.html">Veja mais</a>
+        </div>
+            
+        <div class="cards">
+             <img src="images/FotoCursoHtmlCss.png" alt="HtmlCss">
+             <h1>HTML, CSS e JavaScript</h1>
+             <h2>R$249,99</h2>
+             <p>
+               Construa sites completos do zero! <br>
+               Crie páginas modernas, estilizadas<br>
+               e interativas, aprendendo as três<br>
+               principais tecnologias da web
+             </p>
+             <a href="HtmlCssJs.html">Veja mais</a>
+        </div>
+
+        <div class="cards">
+            <img src="images/ReactNative.jpg" alt="ReactNative">
+            <h1>React Native</h1>
+            <h2>R$399,99</h2>
+            <p>
+               Aprenda a criar apps nativos para <br> 
+               Android e iOS com JavaScript.<br>
+               Domine componentes, navegação <br>
+               e integração com APIs externas.
+            </p>
+             <a href="ReactNative.html">Veja mais</a>
+        </div>
+    </section>
+
+    <!--FIM SECTION VALORES-->
+
+
+    <!--COMEÇO SECTION VISÂO-->
+
+     <section class="Visao">
+        <h1>Nossa Visão</h1>
+
+        <p>
+           A CodeAcademy busca ser referência no ensino de tecnologia e programação, formando <br>
+           profissionais capazes de transformar o mundo digital com criatividade, ética e inovação.<br>
+           Queremos construir um ambiente de aprendizado que inspire confiança e curiosidade, onde<br>
+           cada estudante possa descobrir seu potencial e evoluir junto com a tecnologia.<br>
+           Nossa visão é democratizar o acesso ao conhecimento tecnológico, preparando as<br>
+           novas gerações para os desafios e oportunidades do futuro.
+        </p>
+    </section>
+
+    
+    <!--FIM SECTION VISÂO-->
+    
+
+    <!--COMEÇO FOOTER-->
+    
+    
+    <footer class="sobre">
+        <div  class="footer-topo">
+            <img src="images/LogoSite.png" alt="LogoSite">
+            
+            <p>
+                Redes <br>
+                <i class="bi bi-instagram" style="color: #643ad6;"></i>
+                <i class="bi bi-facebook" style="color: #643ad6;"></i>
+                <i class="bi bi-twitter-x" style="color: #643ad6;"></i>
+            </p>
+           
+        </div>
+
+        <div class="footer-bottom">
+            <div>
+                <h1>Lógica de Programação</h1>
+                <ul>
+                    <li>Conceitos Básicos</li>
+                    <li>Estruturas de Decisão</li>
+                    <li>Laços de Repetição</li>
+                    <li>Algoritmos e Pseudocódigo</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1>Python</h1>
+                <ul>
+                    <li>Fundamentos da Linguagem</li>
+                    <li>Automação de Tarefas</li>
+                    <li>Manipulação de Dados</li>
+                    <li>Projetos Práticos</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1>React Native</h1>
+                <ul>
+                    <li>Introdução ao React Native</li>
+                    <li>Componentes e Estilos</li>
+                    <li>Navegação entre Telas</li>
+                    <li>Integração com APIs</li>
+                </ul>
+            </div>
+
+            <div class="footer-email">
+                <h1>Receba Novidades e Lançamentos</h1>
+                <input type="email" placeholder="Digite seu e-mail">
+                <button>Enviar</button>
+            </div>
+        </div>
+        
+        <hr>
+        <div class="fim-footer">
+            <p>&copy; 2025 Code Academy. Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <!--FIM FOOTER-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
